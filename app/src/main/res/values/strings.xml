@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question_1">In which year did Maradona score a goal with his hand?</string>
+    <string name="question_2">What is the national sport in Japan?	</string>
+    <string name="question_3">How many minutes is a rugby match?	</string>
+    <string name="question_4">In which country were the first Olympic Games held?	</string>
+    <string name="question_5">How many players are on each side of the net in beach volleyball?	</string>
+    <string name="question_6">How matches did Mohammed Ali lose in his career?	</string>
+    <string name="question_7">How long is an Olympic swimming pool?	</string>
+    <string name="question_8">At what number does one begin when playing Darts?	</string>
+    <string name="question_9">Which car won Fernando Alonso his first tittle in Formula 1 with?	</string>
+    <string name="question_10">Which cyclist was also called the cannibal?	</string>
+
+
+</resources>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <EditText
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports Quiz"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:fontFamily="monospace"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="In which year did Maradona score a goal with his hand?"/>
+
+   <RadioGroup
+       android:id="@+id/question_1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/q1_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1986"/>
+
+    <RadioButton
+        android:id="@+id/q1_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1988"/>
+
+    <RadioButton
+        android:id="@+id/q1_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1987"/>
+
+    <RadioButton
+        android:id="@+id/q1_a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1976"/>
+
+   </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="What is the national sport in Japan?"/>
+
+    <RadioGroup
+        android:id="@+id/question_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q2_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karate"/>
+
+        <RadioButton
+            android:id="@+id/q2_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumo Wrestling"/>
+
+        <RadioButton
+            android:id="@+id/q2_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judo"/>
+
+        <RadioButton
+            android:id="@+id/q2_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tae Kwondo"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="How many minutes is a rugby match?"/>
+
+    <RadioGroup
+        android:id="@+id/question_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q3_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"/>
+
+        <RadioButton
+            android:id="@+id/q3_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="90"/>
+
+        <RadioButton
+            android:id="@+id/q3_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"/>
+
+        <RadioButton
+            android:id="@+id/q3_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="In which country were the first Olympic Games held?"/>
+
+    <RadioGroup
+        android:id="@+id/question_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q4_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="France"/>
+
+        <RadioButton
+            android:id="@+id/q4_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greece"/>
+
+        <RadioButton
+            android:id="@+id/q4_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Germany"/>
+
+        <RadioButton
+            android:id="@+id/q4_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="China"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="How many players are on each side of the net in beach volleyball?"/>
+
+    <RadioGroup
+        android:id="@+id/question_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q5_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+
+        <RadioButton
+            android:id="@+id/q5_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+
+        <RadioButton
+            android:id="@+id/q5_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"/>
+
+        <RadioButton
+            android:id="@+id/q5_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="What should you do in swordplay when you break your saber?"/>
+
+    <RadioGroup
+        android:id="@+id/question_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q6_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replace it"/>
+
+        <RadioButton
+            android:id="@+id/q6_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forfeit the match"/>
+
+        <RadioButton
+            android:id="@+id/q6_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End the match"/>
+
+        <RadioButton
+            android:id="@+id/q6_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart match"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="Which two sports are practiced on a green table ?"/>
+
+    <RadioGroup
+        android:id="@+id/question_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/q7_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Billiards"/>
+
+        <CheckBox
+            android:id="@+id/q7_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrom"/>
+
+        <CheckBox
+            android:id="@+id/q7_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chess"/>
+
+        <CheckBox
+            android:id="@+id/q7_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ping-pong"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="What is the nickname of the Belgian national soccer team?"/>
+
+    <RadioGroup
+        android:id="@+id/question_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q8_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red devils"/>
+
+        <RadioButton
+            android:id="@+id/q8_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daredevils"/>
+
+        <RadioButton
+            android:id="@+id/q8_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eagles"/>
+
+        <RadioButton
+            android:id="@+id/q8_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rockets"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="In which sport can you win the Davis Cup?"/>
+
+    <EditText
+        android:id="@+id/q9_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="Which popular fitness method was invented by a German?"/>
+
+    <RadioGroup
+        android:id="@+id/question_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q10_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yoga"/>
+
+        <RadioButton
+            android:id="@+id/q10_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cross-fit"/>
+
+        <RadioButton
+            android:id="@+id/q10_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fartlek"/>
+
+        <RadioButton
+            android:id="@+id/q10_a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilates"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submitAnswers"/>
+
+
+
+</LinearLayout>
+</ScrollView>
